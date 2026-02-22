@@ -67,7 +67,9 @@ img.ladyJustice {
 }
 
 .mainpage-container {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     position: relative;
     left: 1200px;
@@ -80,14 +82,20 @@ img.ladyJustice {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    text-align:center;
-
+    text-align: center;
 }
-
+.text2 {
+    margin-top: 0px;
+}
 .learn-more-button {
-  position:relative ;
-  padding: 10px 25px;
-  font-size: 15px;
-  left:50%;
-  margin: 0px;dsadas
+    position: relative;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    margin: 0px;
+    background-color: #cec497;
 }
+
+

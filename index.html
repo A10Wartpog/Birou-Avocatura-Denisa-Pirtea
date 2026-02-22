@@ -1,43 +1,72 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Birou de Avocatura | Denisa Pirtea</title>
-    <link rel="stylesheet" href="styles/mainStyle.css" />
-    <link rel="stylesheet" href="styles/headerAndImage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com" rel="stylesheet" />
-  </head>
-  <body>
-    <!--
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Birou de Avocatura | Denisa Pirtea</title>
+        <link rel="stylesheet" href="styles/mainStyle.css" />
+        <link rel="stylesheet" href="styles/headerAndImage.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com" rel="stylesheet" />
+        <link rel="stylesheet" href="styles/emptySpaces.css" />
+        <link rel="stylesheet" href="styles/history-page.css" />
+    </head>
+    <body>
+        <!--
     Div pentru un header. Are mai multe divuri integrate pentru a le alinia corect.
     -->
-    <div class="mainpage">
-      <img src="images/ladyJustice.png" class="ladyJustice" />
-      <div class="titlu">
-        <a href="index.html" class="title"><h1>Denisa Pirtea - avocat</h1></a>
-      </div>
+        <div class="mainpage">
+            <img src="images/ladyJustice.png" class="ladyJustice" />
+            <div class="titlu">
+                <a href="index.html" class="title"><h1>Denisa Pirtea - avocat</h1></a>
+            </div>
 
-      <div class="despre">
-        <a href="about.html" class="about">Despre Noi</a>
-      </div>
+            <div class="despre">
+                <a href="about.html" class="about">Despre Noi</a>
+            </div>
 
-      <div class="contact">
-        <a href="contact.html" class="contactUs">Contact</a>
-      </div>
-      <div class="arii">
-        <a href="arii.html" class="practices">Arii de practica</a>
-      </div>
-      <div class="mainpage-container">
-        <p class="mainpage-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button class="learn-more-button">MAI MULT</button>
-
-
-
-
-      </div>
-    </div>
-  </body>
+            <div class="contact">
+                <a href="contact.html" class="contactUs">Contact</a>
+            </div>
+            <div class="arii">
+                <a href="arii.html" class="practices">Arii de practica</a>
+            </div>
+            <div class="mainpage-container">
+                <p class="mainpage-text">
+                    Oferim consultanță juridică strategică și reprezentare fermă pentru persoane și
+                    companii. Analizăm fiecare caz cu rigoare, construim soluții pragmatice și
+                    acționăm prompt pentru a proteja interesele clienților noștri. Profesionalism,
+                    confidențialitate și rezultate — acestea sunt standardele noastre.
+                </p>
+                <p class="mainpage-text text2">
+                    Dreptul tău, prioritatea noastră. Soluții rapide, argumente puternice,
+                    comunicare transparentă.
+                </p>
+                <button class="learn-more-button">MAI MULT</button>
+            </div>
+        </div>
+        <div class="empty-space1"></div>
+        <div class="through-the-years">
+            <p class="istoric-text">Istoricul Nostru</p>
+            <div class="history-div">
+                <ul class="history-nav">
+                    <li><button class="year-button button2022" onclick="changeText(2022)">2022</button></li>
+                    <li><button class="year-button button2023" onclick="changeText(2023)">2023</button></li>
+                    <li><button class="year-button button2024" onclick="changeText(2024)">2024</button></li>
+                    <li><button class="year-button button2025" onclick="changeText(2025)">2025</button></li>
+                    <li><button class="year-button button2026" onclick="changeText(2026)">2026</button></li>
+                </ul>
+            </div>
+            <div class="history-description-container">
+                <p class="history-description">
+                    Oferim consultanță juridică strategică și reprezentare fermă pentru persoane și
+                    companii. Analizăm fiecare caz cu rigoare, construim soluții pragmatice și
+                    acționăm prompt pentru a proteja interesele clienților noștri. Profesionalism,
+                    confidențialitate și rezultate — acestea sunt standardele noastre. PLACEHOLDER!!!!!!!!!!
+                </p>
+            </div>
+        </div>
+        <script src="scripts/historyButtonPresses.js"></script>
+    </body>
 </html>
