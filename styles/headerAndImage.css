@@ -1,67 +1,92 @@
 div.mainpage {
-  height: 100%;
-  width: 100%;
-  display:flexbox;
-  align-items: center;
-  justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 
 div.titlu {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 div.despre {
-  display: flex;
-  position: absolute;
-  top: 35px;
-  left: 100px;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 100px;
 }
 
 div.arii {
-  display: flex;
-  position: absolute;
-  top: 35px;
-  left: 250px;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 250px;
 }
 
 div.contact {
-  display: flex;
-  position: absolute;
-  top: 35px;
-  right: 100px;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    right: 100px;
 }
 
 a.title {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a.about {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a.contactUs {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a.practices {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 img.ladyJustice {
-  z-index: -1;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 102vh;
-  top: -10px;
-  object-position: 0px 0px;
-  object-fit: cover;
-  filter: brightness(50%);
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 102vh;
+    top: -10px;
+    object-position: 0px 0px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.mainpage-container {
+    display: inline-block;
+    flex-direction: column;
+    position: relative;
+    left: 1200px;
+    top: 110px;
+    width: 500px;
+    height: 500px;
+}
+
+.mainpage-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+
+}
+
+.learn-more-button {
+  position: ;
+  padding: 10px 25px;
+  font-size: 15px;
+  left:50px;
 }
