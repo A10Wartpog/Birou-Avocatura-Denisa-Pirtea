@@ -26,3 +26,14 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* button {
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  min-height: 50px; 
+  padding: 10px 20px;
+  background: gray;
+  color: white;
+  cursor:pointer;
+} */

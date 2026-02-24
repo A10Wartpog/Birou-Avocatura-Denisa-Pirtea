@@ -4,13 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Birou de Avocatura | Denisa Pirtea</title>
-        <link rel="stylesheet" href="styles/mainStyle.css" />
-        <link rel="stylesheet" href="styles/headerAndImage.css" />
+        <link rel="stylesheet" href="styles/index.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com" rel="stylesheet" />
         <link rel="stylesheet" href="styles/emptySpaces.css" />
-        <link rel="stylesheet" href="styles/history-page.css" />
+        <link rel="stylesheet" href="styles/mainStyle.css" />
+        <link rel="stylesheet" href="styles/footer.css">
     </head>
     <body>
         <!--
@@ -48,25 +48,93 @@
         </div>
         <div class="empty-space1"></div>
         <div class="through-the-years">
-            <p class="istoric-text">Istoricul Nostru</p>
-            <div class="history-div">
-                <ul class="history-nav">
-                    <li><button class="year-button button2022" onclick="changeText(2022)">2022</button></li>
-                    <li><button class="year-button button2023" onclick="changeText(2023)">2023</button></li>
-                    <li><button class="year-button button2024" onclick="changeText(2024)">2024</button></li>
-                    <li><button class="year-button button2025" onclick="changeText(2025)">2025</button></li>
-                    <li><button class="year-button button2026" onclick="changeText(2026)">2026</button></li>
+            <div class="history-container">
+                <p class="istoric-text">Istoricul Nostru</p>
+                <div class="history-div">
+                    <ul class="history-nav">
+                        <li>
+                            <button class="year-button button2022" onclick="changeText(2022)">
+                                2022
+                            </button>
+                        </li>
+                        <li>
+                            <button class="year-button button2023" onclick="changeText(2023)">
+                                2023
+                            </button>
+                        </li>
+                        <li>
+                            <button class="year-button button2024" onclick="changeText(2024)">
+                                2024
+                            </button>
+                        </li>
+                        <li>
+                            <button class="year-button button2025" onclick="changeText(2025)">
+                                2025
+                            </button>
+                        </li>
+                        <li>
+                            <button class="year-button button2026" onclick="changeText(2026)">
+                                2026
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="history-description-container">
+                    <p class="history-description">
+                        Oferim consultanță juridică strategică și reprezentare fermă pentru persoane
+                        și companii. Analizăm fiecare caz cu rigoare, construim soluții pragmatice
+                        și acționăm prompt pentru a proteja interesele clienților noștri.
+                        Profesionalism, confidențialitate și rezultate — acestea sunt standardele
+                        noastre. PLACEHOLDER!!!!!!!!!!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="transition-div"></div>
+        <div class="review-part">
+            <div class="review-grid">
+                <p class="review-grid-title">Reviews</p>
+                <div class="review-grid-container">
+                    <button class="review-grid-button review-button-left" onclick="showPrev()">
+                        <
+                    </button>
+                    <div class="review-grid-text-container">
+                        <p class="review-grid-text">
+                            Oferim consultanță juridică strategică și reprezentare fermă pentru
+                            persoane și companii. Analizăm fiecare caz cu rigoare, construim soluții
+                            pragmatice și acționăm prompt pentru a proteja interesele clienților
+                            noștri. Profesionalism, confidențialitate și rezultate — acestea sunt
+                            standardele noastre. PLACEHOLDER!!!!!!!!!!
+                        </p>
+                    </div>
+                    <button class="review-grid-button review-button-right" onclick="showNext()">
+                        >
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-part">
+            <div class="footer-links-container">
+                <ul class="footer-links-list">
+                    <li>
+                        <a href="about.html" class="footer-link">Despre Noi</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="arii.html" class="footer-link">Arii de Practica</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="contact.html" class="footer-link">Contact</a>
+                    </li>                   
                 </ul>
             </div>
-            <div class="history-description-container">
-                <p class="history-description">
-                    Oferim consultanță juridică strategică și reprezentare fermă pentru persoane și
-                    companii. Analizăm fiecare caz cu rigoare, construim soluții pragmatice și
-                    acționăm prompt pentru a proteja interesele clienților noștri. Profesionalism,
-                    confidențialitate și rezultate — acestea sunt standardele noastre. PLACEHOLDER!!!!!!!!!!
-                </p>
+            <div class="socials-container">
+                <a href="https://www.instagram.com/denisa.prt/" class="footer-link insta"><img src="images/insta.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100079500406961" class="footer-link facebook"><img src="images/facebook.png" alt="Facebook"></a>
             </div>
         </div>
         <script src="scripts/historyButtonPresses.js"></script>
+        <script src="scripts/review-scroller.js"></script>
     </body>
 </html>

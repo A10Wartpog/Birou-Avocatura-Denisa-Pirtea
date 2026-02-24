@@ -1,0 +1,225 @@
+div.mainpage {
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+div.titlu {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+div.despre {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+div.arii {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 250px;
+}
+
+div.contact {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    right: 100px;
+}
+
+a.title {
+    color: white;
+    text-decoration: none;
+}
+
+a.about {
+    color: white;
+    text-decoration: none;
+}
+
+a.contactUs {
+    color: white;
+    text-decoration: none;
+}
+
+a.practices {
+    color: white;
+    text-decoration: none;
+}
+img.ladyJustice {
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 102vh;
+    top: -10px;
+    object-position: 0px 0px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.mainpage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 1200px;
+    top: 110px;
+    width: 500px;
+    height: 500px;
+}
+
+.mainpage-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.text2 {
+    margin-top: 0px;
+}
+.learn-more-button {
+    position: relative;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    margin: 0px;
+    background-color: #cec497;
+}
+
+.through-the-years {
+    height: 800px;
+    width: 1920px;
+    background-color: #77624e;
+    background:
+        linear-gradient(transparent 70%, #fff),
+        #77624e center/cover;
+}
+.istoric-text {
+    width: 1920px;
+    position: relative;
+    margin: 0;
+    /*     top: 30px; */
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.history-container {
+    position: relative;
+    top: 120px;
+}
+.history-div {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+.history-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.through.through-the-years-nav {
+    flex-direction: row;
+}
+
+.year-button {
+    font-size: 30px;
+    margin: 70px 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.history-description-container {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    margin: 0;
+}
+
+.history-description {
+    width: 1200px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    margin-top: -40px;
+}
+.transition-div {
+    height: 100px;
+}
+
+.review-part {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.review-grid {
+    display: inline-grid;
+    margin: 0%;
+    position: relative;
+    top: 130px;
+    grid-template-areas:
+        'header header'
+        'content content';
+    background-color: white;
+    padding: 10px;
+    width: 1380px;
+    height: 600px;
+    grid-template-rows: 1fr 4fr;
+}
+
+.review-grid-title {
+    text-align: center;
+    grid-area: header;
+    margin: 0;
+    font-size: 50px;
+}
+
+.review-grid-container {
+    display: flex;
+    grid-area: content;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-grid-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.review-button-left {
+    margin-right: 30px;
+}
+.review-button-right {
+    margin-left: 30px;
+}
+.review-grid-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+}
+.review-grid-text {
+    text-align: center;
+    font-size: 30px;
+}
