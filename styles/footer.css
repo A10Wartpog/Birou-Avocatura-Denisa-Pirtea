@@ -43,20 +43,20 @@
 
 }
 .socials-container img {
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
     object-fit: contain;
     display: block;
 }
 
 .insta {
     position:relative;
-    right: -600px;
+    right: -550px;
     width: 70px;
 }
 .facebook {
     position:relative;
     right: -400px;
-    width: 70px;
+    width: 60px;
 }
 

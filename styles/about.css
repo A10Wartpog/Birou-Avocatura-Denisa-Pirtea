@@ -1,0 +1,78 @@
+.about-image {
+    width: 100%;
+    top: -50px;
+    position: absolute;
+    object-fit: contain;
+    z-index: -1;
+    filter: brightness(50%);
+    object-position: top;
+}
+
+.header-container {
+    height: 90px;
+    display: grid;
+    grid-template-areas: 'despre arii titlu contact';
+}
+
+.about {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 100px;
+    grid-area: despre;
+}
+
+.practices {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -323px;
+    grid-area: arii;
+}
+
+.title {
+    position: relative;
+    top: -3px;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: titlu;
+    margin-left: -419px;
+}
+
+.contactUs {
+    grid-area: contact;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 110px;
+}
+
+.about-title {
+    text-align: center;
+    position: relative;
+    margin-top: 270px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 50px;
+}
+
+.about-text-container{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    align-items: center;
+
+}
+
+.about-text {
+    width: 1400px;
+    text-align: center;
+    font-size: 20px;
+}
