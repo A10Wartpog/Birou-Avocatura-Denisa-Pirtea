@@ -4,8 +4,8 @@
     display: grid;
     grid-template-areas: 
     "content1 content2";
-    padding-left: 340px;
-    padding-right: 340px;
+    padding-left: 20vw;
+    padding-right: 20vw;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -32,7 +32,6 @@
 }
 .socials-container {
     grid-area: content2;
-
     display: flex;
     justify-content: right;
     align-items: center;
@@ -51,12 +50,13 @@
 
 .insta {
     position:relative;
-    right: -550px;
+    right: -28vw;
     width: 70px;
 }
 .facebook {
     position:relative;
-    right: -400px;
+    right: -20vw;
     width: 60px;
+    
 }
 

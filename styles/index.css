@@ -72,10 +72,13 @@ img.ladyJustice {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    left: 1200px;
+    left: 65%;
     top: 110px;
-    width: 500px;
+    max-width: 500px;
+    width: 90vw;
     height: 500px;
+    margin-right: 50px;
+    padding-right: 50px;
 }
 
 .mainpage-text {
@@ -100,14 +103,14 @@ img.ladyJustice {
 
 .through-the-years {
     height: 800px;
-    width: 1920px;
+    width: 100vw;
     background-color: #77624e;
     background:
         linear-gradient(transparent 70%, #fff),
         #77624e center/cover;
 }
 .istoric-text {
-    width: 1920px;
+    width: 100%;
     position: relative;
     margin: 0;
     /*     top: 30px; */
@@ -121,7 +124,7 @@ img.ladyJustice {
     top: 120px;
 }
 .history-div {
-    width: 1920px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -149,7 +152,7 @@ img.ladyJustice {
 .history-description-container {
     display: flex;
     justify-content: center;
-    width: 1920px;
+    width: 100%;
     margin: 0;
 }
 
