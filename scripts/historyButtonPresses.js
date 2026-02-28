@@ -21,12 +21,12 @@ function changeText(year) {
         case 2025:
             textElement.innerHTML = 'text 2025'
             buttonText.style.textDecoration = 'underline'
-            buttonText.classList.add('history-history-is-toggled')
+            buttonText.classList.add('history-is-toggled')
             break
         case 2026:
             textElement.innerHTML = 'text 2026'
             buttonText.style.textDecoration = 'underline'
-            buttonText.classList.add('history-history-is-toggled')
+            buttonText.classList.add('history-is-toggled')
             break
     }
 }

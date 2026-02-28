@@ -2,11 +2,61 @@
     color: white;
     text-align: center;
     margin-top: 270px;
+    font-size:50px;
 
 }
 
 .parte-arii {
     background-color: white;
-    width: 100%;
-    height: 900px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
 }
+
+.selectie-arii-container {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 70vw;
+    height: auto;
+    grid-template-areas: 
+    "area1 area1 area1"
+    "area2 area2 area2"
+    "area3 area3 area3";
+}
+.button{
+    height: 30px;
+    width: auto;
+    min-width: 50px;
+    margin: 0;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border-width: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+.arie-selected {
+    background-color: rgb(219, 219, 219);
+}
+.arie-text {
+    width: 60vw;
+    text-align: center;
+}
+
+.margin-add { 
+    margin-top: -100px;
+}
+
+

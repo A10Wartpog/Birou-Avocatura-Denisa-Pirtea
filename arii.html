@@ -12,7 +12,8 @@
         <link rel="stylesheet" href="styles/mainStyle.css" />
         <link rel="stylesheet" href="styles/footer.css" />
         <link rel="stylesheet" href="styles/about.css" />
-        <link rel="stylesheet" href="styles/arii.css">
+        <link rel="stylesheet" href="styles/arii.css" />
+        <link rel="stylesheet" href="styles/footer.css" />
 
         <title>Document</title>
     </head>
@@ -35,7 +36,54 @@
         </div>
         <h1 class="header-text-arii">Arii de Practica</h1>
         <div class="parte-arii">
-            <div class="selectie-arii-container"></div>
+            <div class="selectie-arii-container">
+                <button class="button arie-selected button-1 btn-1" onclick="schimbareArie(1)">
+                    Arie1
+                </button>
+                <button class="button button-1 btn-2" onclick="schimbareArie(2)">Arie2</button>
+                <button class="button button-1 btn-3" onclick="schimbareArie(3)">Arie3</button>
+
+                <button class="button button-2 btn-4" onclick="schimbareArie(4)">Arie4</button>
+                <button class="button button-2 btn-5" onclick="schimbareArie(5)">Arie5</button>
+                <button class="button button-2 btn-6" onclick="schimbareArie(6)">Arie6</button>
+
+                <button class="button button-3 btn-7" onclick="schimbareArie(7)">Arie7</button>
+                <button class="button button-3 btn-8" onclick="schimbareArie(8)">Arie8</button>
+                <button class="button button-3 btn-9" onclick="schimbareArie(9)">Arie9</button>
+            </div>
+            <div class="arie-text ">
+                <p>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-part">
+            <div class="footer-links-container">
+                <ul class="footer-links-list">
+                    <li>
+                        <a href="about.html" class="footer-link">Despre Noi</a>
+                    </li>
+                    <br />
+                    <li>
+                        <a href="arii.html" class="footer-link">Arii de Practica</a>
+                    </li>
+                    <br />
+                    <li>
+                        <a href="contact.html" class="footer-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="socials-container">
+                <a href="https://www.instagram.com/denisa.prt/" class="footer-link insta"
+                    ><img src="images/insta.png" alt="Instagram"
+                /></a>
+                <a
+                    href="https://www.facebook.com/profile.php?id=100079500406961"
+                    class="footer-link facebook"
+                    ><img src="images/facebook.png" alt="Facebook"
+                /></a>
+            </div>
         </div>
     </body>
+    <script src="scripts/arii-selector.js"></script>
 </html>
