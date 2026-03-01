@@ -1,8 +1,4 @@
-const reviews = [`Oferim consultanță juridică strategică și reprezentare fermă pentru
-                            persoane și companii. Analizăm fiecare caz cu rigoare, construim soluții
-                            pragmatice și acționăm prompt pentru a proteja interesele clienților
-                            noștri. Profesionalism, confidențialitate și rezultate — acestea sunt
-                            standardele noastre. PLACEHOLDER!!!!!!!!!!`, 'rev2', 'rev3', 'rev4']
+const reviews = [`” Serviciile juridice au fost furnizate la un nivel înalt de profesionalism, cu o abordare strategică și orientată spre rezultate. Comunicarea a fost clară, iar gestionarea speței s-a realizat eficient și responsabil”`, '„Echipa a demonstrat competență juridică solidă, rigurozitate în analiză și o bună capacitate de gestionare a aspectelor procedurale. Colaborarea s-a desfășurat în condiții de transparență și promptitudine”', '„Am apreciat standardele profesionale ridicate, respectarea termenelor și calitatea consultanței oferite. Abordarea a fost structurată, iar soluțiile propuse au fost bine fundamentate juridic”', '„Servicii juridice caracterizate prin profesionalism, rigoare și eficiență operațională. Colaborare predictibilă și orientată spre soluții durabile.”']
 const n = reviews.length
 let index = 0
 
